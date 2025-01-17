@@ -29,26 +29,28 @@
 
         .container {
             position: relative;
-            width: 80vw;
-            max-width: 480px;
+            width: 50vw; /* Adjusted width */
+            max-width: 300px; /* Adjusted max-width */
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         .envelope {
             position: relative;
             background: #eb7885;
-            height: 50vw;
-            max-height: 300px;
+            height: 30vw; /* Adjusted height */
+            max-height: 180px; /* Adjusted max-height */
             width: 100%;
         }
 
         .card {
             position: absolute;
             background: white;
-            height: 45vw;
-            max-height: 270px;
+            height: 25vw; /* Adjusted height */
+            max-height: 150px; /* Adjusted max-height */
             width: 90%;
             padding: 0;
-            margin-top: 0;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -63,48 +65,47 @@
             position: absolute;
             top: 3vmin;
             padding: 5px;
-            margin-top: 0;
         }
 
         .cover {
             position: absolute;
             height: 0;
             width: 0;
-            border-bottom: 25vw solid #f5b5bb;
-            border-left: 40vw solid transparent;
-            border-right: 40vw solid transparent;
-            top: 25vw;
-            max-height: 150px;
+            border-bottom: 15vw solid #f5b5bb; /* Adjusted border */
+            border-left: 25vw solid transparent; /* Adjusted border */
+            border-right: 25vw solid transparent; /* Adjusted border */
+            top: 15vw; /* Adjusted top */
+            max-height: 90px; /* Adjusted max-height */
             z-index: 3;
         }
 
         .cover::after {
             position: absolute;
             content: '';
-            border-left: 40.5vw solid #ffbbc1;
-            border-bottom: 25vw solid transparent;
-            border-top: 25vw solid transparent;
-            top: -25vw;
-            left: -40vw;
+            border-left: 25.5vw solid #ffbbc1; /* Adjusted border */
+            border-bottom: 15vw solid transparent; /* Adjusted border */
+            border-top: 15vw solid transparent; /* Adjusted border */
+            top: -15vw; /* Adjusted top */
+            left: -25vw; /* Adjusted left */
         }
 
         .cover::before {
             position: absolute;
             content: '';
-            border-right: 40.5vw solid #ffbbc1;
-            border-bottom: 25vw solid transparent;
-            border-top: 25vw solid transparent;
-            top: -25vw;
-            left: -0.5vw;
+            border-right: 25.5vw solid #ffbbc1; /* Adjusted border */
+            border-bottom: 15vw solid transparent; /* Adjusted border */
+            border-top: 15vw solid transparent; /* Adjusted border */
+            top: -15vw; /* Adjusted top */
+            left: -0.5vw; /* Adjusted left */
         }
 
         .lid {
             position: absolute;
             height: 0;
             width: 0;
-            border-top: 25vw solid #ff8896;
-            border-left: 40vw solid transparent;
-            border-right: 40vw solid transparent;
+            border-top: 15vw solid #ff8896; /* Adjusted border */
+            border-left: 25vw solid transparent; /* Adjusted border */
+            border-right: 25vw solid transparent; /* Adjusted border */
             top: 0;
             transform-origin: top;
             animation: open-rev 2s;
@@ -127,8 +128,8 @@
             border-radius: 50%;
             opacity: 0.7;
             height: 2vmin;
-            width: 80vw;
-            max-width: 480px;
+            width: 50vw; /* Adjusted width */
+            max-width: 300px; /* Adjusted max-width */
             background: #e8c5d0;
         }
 
@@ -211,7 +212,7 @@
 
         @keyframes slide {
             100% {
-                transform: translateY(-25vw);
+                transform: translateY(-15vw); /* Adjusted translateY */
                 z-index: 2;
             }
         }
@@ -224,7 +225,7 @@
 
         @keyframes slide-rev {
             from {
-                transform: translateY(-25vw);
+                transform: translateY(-15vw); /* Adjusted translateY */
             }
         }
 
@@ -266,7 +267,7 @@
     <div class="container">
         <div class="envelope"></div>
         <div class="card">
-            <h1 class="message">Happy Birthday Shamaim <br> Happy Birthday Sweetie aj ka din boht hi khas din hai bcz aj ap is duniya mai aai thi or mujy meri khushi mili thi.Shamaim uh mean everything to meh Uh are the person i love most after my parents and I don't want to lose uh sweetie <br> <a href="#">Iloveuh💙</a>
+            <h1 class="message">Happy Birthday Shamaim <br> Happy Birthday Sweetie aj ka din boht hi khas din hai bcz aj ap is duniya mai aai thi or mujy meri khushi mili thi. Shamaim uh mean everything to meh Uh are the person i love most after my parents and I don't want to lose uh sweetie <br> <a href="#">Iloveuh💙</a>
             </h1>
         </div>
         <div class="cover"></div>
@@ -280,7 +281,7 @@
     <div class='heart five'></div>
     <div class='heart six'></div>
     <div class='heart seven'></div>
-    <div class='heart eigth'></div>
+    <div class='heart eight'></div>
     <div class='heart nine'></div>
     <div class='heart ten'></div>
     <div class='heart eleven'></div>
